@@ -1,1 +1,23 @@
+name: Generate GitHub Stats
 
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate Stats
+        uses: anuraghazra/github-readme-stats@master
+        with:
+          username: EfraimBernardo
+          token: ${{ secrets.GITHUB_TOKEN }}
