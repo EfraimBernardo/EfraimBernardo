@@ -313,7 +313,7 @@ E-commerce interface developed for the NewLys project.
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=EfraimBernardo&bg_color=171E28&color=dddddd&line=3CE316&point=39399A&area=true&hide_border=true" width="100%"/>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=EfraimBernardo&show_icons=true&theme=dark)
 
 </div>
 
