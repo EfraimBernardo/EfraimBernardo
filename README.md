@@ -301,9 +301,7 @@ E-commerce interface developed for the NewLys project.
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=EfraimBernardo&show_icons=true&hide_border=true&bg_color=171E28&title_color=3CE316&icon_color=3CE316&text_color=dddddd"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EfraimBernardo&layout=compact&hide_border=true&bg_color=171E28&title_color=3CE316&text_color=dddddd"/>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=EfraimBernardo&show_icons=true&theme=dark)
 
 </div>
 
@@ -313,7 +311,7 @@ E-commerce interface developed for the NewLys project.
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=EfraimBernardo&show_icons=true&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=EfraimBernardo&layout=compact&theme=dark)
 
 </div>
 
