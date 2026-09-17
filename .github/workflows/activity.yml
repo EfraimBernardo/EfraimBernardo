@@ -1,0 +1,36 @@
+name: Update Activity Graph
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Generate Activity Graph
+        uses: maurodesouza/github-readme-activity-graph-action@v1
+        with:
+          username: EfraimBernardo
+          options: theme=github-compact&hide_border=true&title_color=00ff88&color=ffffff&line=00ff88&point=00ff88&area=true&area_color=00ff88&days=31
+          output_path: profile/activity-graph.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit Activity Graph
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/activity-graph.svg
+
+          git diff --cached --quiet || git commit -m "Update activity graph"
+
+          git push
