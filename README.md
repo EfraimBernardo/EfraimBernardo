@@ -301,7 +301,12 @@ E-commerce interface developed for the NewLys project.
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=EfraimBernardo&show_icons=true&theme=dark)
+<div align="center">
+
+<img src="./profile/stats.svg" width="49%" alt="GitHub Stats">
+<img src="./profile/top-langs.svg" width="49%" alt="Top Languages">
+
+</div>
 
 </div>
 
