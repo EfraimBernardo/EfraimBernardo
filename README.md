@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:171E28,50:193149,100:3CE316&text=EFRAIM%20BERNARDO&fontColor=ffffff&fontSize=42&fontAlignY=38&desc=Web%20Developer%20Junior&descAlignY=58&descSize=20"/>
 
-<img src="eu.jpg" width="150px" style="border-radius:50%;" alt="Efraim Bernardo"/>
+<img src="eu.jpeg" width="150px" style="border-radius:50%;" alt="Efraim Bernardo"/>
 
 # EFRAIM JOÃO MANUEL BERNARDO
 
