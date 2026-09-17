@@ -316,7 +316,15 @@ E-commerce interface developed for the NewLys project.
 
 <div align="center">
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=EfraimBernardo&layout=compact&theme=dark)
+<h2 align="center">📊 Activities</h2>
+
+<div align="center">
+  <img
+    src="./profile/activity-graph.svg"
+    width="100%"
+    alt="GitHub Activity Graph"
+  />
+</div>
 
 </div>
 
